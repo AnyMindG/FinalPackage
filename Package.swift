@@ -3,6 +3,7 @@
 
 import PackageDescription
 
+// FinalPackage v1.1.0
 let package = Package(
     name: "FinalPackage",
     platforms: [.iOS(.v12)],
