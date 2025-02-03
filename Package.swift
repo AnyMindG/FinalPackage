@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// FinalPackage v1.3.0
+// FinalPackage v1.4.0
 let package = Package(
     name: "FinalPackage",
     platforms: [.iOS(.v12)],
@@ -27,7 +27,7 @@ let package = Package(
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")
             ],
             linkerSettings: [
-                            .linkedLibrary("sqlite3.0.tbd"),
+                            .linkedLibrary("libsqlite3.0.tbd"),
                             .linkedLibrary("libz.tbd"),
                             .linkedFramework("WebKit"),
                             .linkedFramework("AdSupport"),

@@ -1,13 +1,13 @@
 {
-  "originHash" : "ca05ab406a3635c4ad408865ee93702de094d1f380db9861689908f7cdbbb260",
+  "originHash" : "1ee8ef1655ccd5c89b7b92bcee2bde0fce422dd482af66ba6acf2fbbdcd5b4aa",
   "pins" : [
     {
       "identity" : "googlemobileadsmediationinmobi",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git",
       "state" : {
-        "revision" : "de43ee6cef8f1452913c54c71aaadce9d242feaa",
-        "version" : "1.1.0"
+        "revision" : "487a1885c0a3034769a3d7737f170c8ec9dc00d9",
+        "version" : "1.2.0"
       }
     },
     {
