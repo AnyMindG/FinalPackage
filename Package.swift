@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v.1.11.0
+// v.1.12.0
 let package = Package(
     name: "FinalPackage",
     platforms: [.iOS(.v12)],
@@ -44,7 +44,6 @@ let package = Package(
                 .linkedFramework("CFNetwork"),
                 .linkedFramework("MediaPlayer"),
                 .linkedFramework("QuartzCore"),
-                .linkedFramework("CoreAudioTypes"),
                 
             ]
         ),
