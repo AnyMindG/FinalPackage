@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v.1.9.0
+// v.1.10.0
 let package = Package(
     name: "FinalPackage",
     platforms: [.iOS(.v12)],
@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AnyMindG/PAGAdSDK.git", from: "1.3.0"),
+        .package(url: "https://github.com/AnyMindG/PAGAdSDK.git", from: "1.4.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationPangle.git", from: "1.2.0"),
         .package(url: "https://github.com/AnyMindG/InMobiAdSDK.git", from: "1.1.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git", from: "1.2.0"),
@@ -29,22 +29,24 @@ let package = Package(
                 .product(name: "InMobiAdSDK", package: "InMobiAdSDK"),
                 .product(name: "GoogleMobileAdsMediationInMobi", package: "GoogleMobileAdsMediationInMobi"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
-            ],
-            linkerSettings: [
-                .linkedFramework("WebKit"),
-                .linkedFramework("AdSupport"),
-                .linkedFramework("AVFoundation"),
-                .linkedFramework("CoreGraphics"),
-                .linkedFramework("CoreMedia"),
-                .linkedFramework("CoreTelephony"),
-                .linkedFramework("StoreKit"),
-                .linkedFramework("SystemConfiguration"),
-                .linkedFramework("UIKit"),
-                .linkedFramework("AudioToolbox"),
-                .linkedFramework("CFNetwork"),
-                .linkedFramework("MediaPlayer"),
-                .linkedFramework("QuartzCore"),
-            ]
+                ]
+//            linkerSettings: [
+//                .linkedFramework("WebKit"),
+//                .linkedFramework("AdSupport"),
+//                .linkedFramework("AVFoundation"),
+//                .linkedFramework("CoreGraphics"),
+//                .linkedFramework("CoreMedia"),
+//                .linkedFramework("CoreTelephony"),
+//                .linkedFramework("StoreKit"),
+//                .linkedFramework("SystemConfiguration"),
+//                .linkedFramework("UIKit"),
+//                .linkedFramework("AudioToolbox"),
+//                .linkedFramework("CFNetwork"),
+//                .linkedFramework("MediaPlayer"),
+//                .linkedFramework("QuartzCore"),
+//                .linkedFramework("CoreAudioTypes"),
+//                
+//            ]
         ),
         .testTarget(
             name: "FinalPackageTests",
