@@ -14,8 +14,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AnyMindG/PAGAdSDK.git", from: "1.5.0"),
-        .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationPangle.git", from: "1.2.0"),
+//        .package(url: "https://github.com/AnyMindG/PAGAdSDK.git", from: "1.5.0"),
+//        .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationPangle.git", from: "1.2.0"),
         .package(url: "https://github.com/AnyMindG/InMobiAdSDK.git", from: "1.1.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git", from: "1.2.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.13.0"),
@@ -24,29 +24,29 @@ let package = Package(
         .target(
             name: "FinalPackage",
             dependencies: [
-                .product(name: "PAGAdSDK", package: "PAGAdSDK"),
-                .product(name: "GoogleMobileAdsMediationPangle", package: "GoogleMobileAdsMediationPangle"),
+//                .product(name: "PAGAdSDK", package: "PAGAdSDK"),
+//                .product(name: "GoogleMobileAdsMediationPangle", package: "GoogleMobileAdsMediationPangle"),
                 .product(name: "InMobiAdSDK", package: "InMobiAdSDK"),
                 .product(name: "GoogleMobileAdsMediationInMobi", package: "GoogleMobileAdsMediationInMobi"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
-                ]
-//            linkerSettings: [
-//                .linkedFramework("WebKit"),
-//                .linkedFramework("AdSupport"),
-//                .linkedFramework("AVFoundation"),
-//                .linkedFramework("CoreGraphics"),
-//                .linkedFramework("CoreMedia"),
-//                .linkedFramework("CoreTelephony"),
-//                .linkedFramework("StoreKit"),
-//                .linkedFramework("SystemConfiguration"),
-//                .linkedFramework("UIKit"),
-//                .linkedFramework("AudioToolbox"),
-//                .linkedFramework("CFNetwork"),
-//                .linkedFramework("MediaPlayer"),
-//                .linkedFramework("QuartzCore"),
-//                .linkedFramework("CoreAudioTypes"),
-//                
-//            ]
+                ],
+            linkerSettings: [
+                .linkedFramework("WebKit"),
+                .linkedFramework("AdSupport"),
+                .linkedFramework("AVFoundation"),
+                .linkedFramework("CoreGraphics"),
+                .linkedFramework("CoreMedia"),
+                .linkedFramework("CoreTelephony"),
+                .linkedFramework("StoreKit"),
+                .linkedFramework("SystemConfiguration"),
+                .linkedFramework("UIKit"),
+                .linkedFramework("AudioToolbox"),
+                .linkedFramework("CFNetwork"),
+                .linkedFramework("MediaPlayer"),
+                .linkedFramework("QuartzCore"),
+                .linkedFramework("CoreAudioTypes"),
+                
+            ]
         ),
         .testTarget(
             name: "FinalPackageTests",
