@@ -1,5 +1,5 @@
 {
-  "originHash" : "63bd16bf5626553445c5329eb0e4484db22f4307ac0bfb909631882758816f7a",
+  "originHash" : "645c659e847bd54a14612184b3fcedf09a281636b346763f739560b48b3c9cd8",
   "pins" : [
     {
       "identity" : "googlemobileadsmediationinmobi",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/PAGAdSDK.git",
       "state" : {
-        "revision" : "0dfa3af5946073061a7e7e5dde816c4d00ee7698",
-        "version" : "1.3.0"
+        "revision" : "5e741c49afe58f088120cec8c6fb1a4b4166891c",
+        "version" : "1.5.0"
       }
     },
     {
