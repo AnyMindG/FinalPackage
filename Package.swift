@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v.1.8.0
+// v.1.9.0
 let package = Package(
     name: "FinalPackage",
     platforms: [.iOS(.v12)],
@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AnyMindG/PAGAdSDK.git", from: "1.1.0"),
+        .package(url: "https://github.com/AnyMindG/PAGAdSDK.git", from: "1.3.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationPangle.git", from: "1.2.0"),
         .package(url: "https://github.com/AnyMindG/InMobiAdSDK.git", from: "1.1.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git", from: "1.2.0"),

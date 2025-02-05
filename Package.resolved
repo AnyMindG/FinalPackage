@@ -1,5 +1,5 @@
 {
-  "originHash" : "7134debb13deebe3c9179c8294687f9a10d57ff328f829491f851f08553b445d",
+  "originHash" : "63bd16bf5626553445c5329eb0e4484db22f4307ac0bfb909631882758816f7a",
   "pins" : [
     {
       "identity" : "googlemobileadsmediationinmobi",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationPangle.git",
       "state" : {
-        "revision" : "a74a2b5c16ec3a364f0fa0495cd3dc69f312bf9e",
-        "version" : "1.1.0"
+        "revision" : "04b6398082abdd61eb91e1470e94cd807c0712b9",
+        "version" : "1.2.0"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/PAGAdSDK.git",
       "state" : {
-        "revision" : "dbd3d65710af11ec5bdbe2acb81e72937fea0906",
-        "version" : "1.1.0"
+        "revision" : "0dfa3af5946073061a7e7e5dde816c4d00ee7698",
+        "version" : "1.3.0"
       }
     },
     {
