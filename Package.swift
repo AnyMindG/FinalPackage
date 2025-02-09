@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v.1.12.0
+// v.1.14.0
 let package = Package(
     name: "FinalPackage",
     platforms: [.iOS(.v12)],
@@ -16,6 +16,8 @@ let package = Package(
     dependencies: [
 //        .package(url: "https://github.com/AnyMindG/PAGAdSDK.git", from: "1.5.0"),
 //        .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationPangle.git", from: "1.2.0"),
+        .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.2.0"),
+        .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationFyber.git", from: "1.2.0"),
         .package(url: "https://github.com/AnyMindG/InMobiAdSDK.git", from: "1.1.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git", from: "1.2.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.13.0"),
@@ -26,6 +28,8 @@ let package = Package(
             dependencies: [
 //                .product(name: "PAGAdSDK", package: "PAGAdSDK"),
 //                .product(name: "GoogleMobileAdsMediationPangle", package: "GoogleMobileAdsMediationPangle"),
+                .product(name: "IASDKCore", package: "IASDKCore"),
+                .product(name: "GoogleMobileAdsMediationFyber", package: "GoogleMobileAdsMediationFyber"),
                 .product(name: "InMobiAdSDK", package: "InMobiAdSDK"),
                 .product(name: "GoogleMobileAdsMediationInMobi", package: "GoogleMobileAdsMediationInMobi"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),

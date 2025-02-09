@@ -1,12 +1,30 @@
 {
-  "originHash" : "427351d24e06f6a170ea9c9831424d0801926a0c6ac579d245e598ac6b7144eb",
+  "originHash" : "643c1bce42befa4468792334b4a9bd22c3d788a87cbb20b9c15a00d1e9eb0c6c",
   "pins" : [
+    {
+      "identity" : "googlemobileadsmediationfyber",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationFyber.git",
+      "state" : {
+        "revision" : "f24f809c79466c1faabedbb47c4fc03d4a95eabc",
+        "version" : "1.2.0"
+      }
+    },
     {
       "identity" : "googlemobileadsmediationinmobi",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git",
       "state" : {
         "revision" : "487a1885c0a3034769a3d7737f170c8ec9dc00d9",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "iasdkcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/IASDKCore.git",
+      "state" : {
+        "revision" : "cdaecf050a6b13e2f76e30adbac8889b44d3634a",
         "version" : "1.2.0"
       }
     },
